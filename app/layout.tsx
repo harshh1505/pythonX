@@ -21,6 +21,8 @@ export const metadata: Metadata = {
   description: 'Elevating ambitious brands through data-driven digital marketing and high-performance web architecture.',
 }
 
+import { Footer } from '@/components/footer'
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -30,6 +32,7 @@ export default function RootLayout({
     <html lang="en" className={`${geist.variable} ${geistMono.variable} ${playfair.variable} scroll-smooth`}>
       <body className="font-sans antialiased">
         {children}
+        <Footer />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

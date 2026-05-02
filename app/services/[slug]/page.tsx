@@ -339,36 +339,6 @@ export default function ServicePage({ params }: { params: Promise<{ slug: string
           </Link>
         </div>
       </div>
-
-
-
-      <footer className="container mx-auto px-6 md:px-12 py-24 flex flex-col md:flex-row justify-between items-start gap-12 border-t border-white/5 mt-24">
-        <div className="max-w-xs">
-          <div className="text-2xl font-bold mb-6">PythonX</div>
-          <p className="text-foreground/60 leading-relaxed">
-            Elevating ambitious brands through data-driven digital marketing and high-performance web architecture.
-          </p>
-        </div>
-        <div className="grid grid-cols-2 gap-24">
-          <div>
-            <h4 className="text-primary font-bold mb-6">Services</h4>
-            <ul className="flex flex-col gap-4 text-foreground/80">
-              <li>SEO Optimization</li>
-              <li>Web Development</li>
-              <li>Brand Identity</li>
-              <li>Growth Strategy</li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-primary font-bold mb-6">Agency</h4>
-            <ul className="flex flex-col gap-4 text-foreground/80">
-              <li>Our Team</li>
-              <li>Portfolio</li>
-              <li>Process</li>
-            </ul>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }

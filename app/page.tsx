@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Navbar } from '@/components/navbar';
 import { Hero } from '@/components/hero';
+import { ServicesGrid } from '@/components/services';
 
 const sections = [
   {
@@ -94,6 +95,7 @@ export default function Home() {
       </div>
 
       <Hero />
+      <ServicesGrid />
 
       {/* Main Sections */}
       <div className="container mx-auto px-6 md:px-12 relative">
